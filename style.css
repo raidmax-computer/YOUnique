@@ -1,0 +1,102 @@
+/* Home page styling */
+.bg-image{
+   background-image: url('Images/Resized Floral.png');
+   width: 100%;
+   height: auto;
+   background-repeat: no-repeat;
+   background-size: 120%;
+   position: center center;
+   z-index: 100;
+}
+body{
+    background-color: black;
+}
+#footer{
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.nav-link{
+    margin-top: 30px;
+    padding-left: 85%;
+    font-size: 1.2rem;
+}
+.navbar-brand{
+    margin-left: -9px;
+}
+/* .navbar{
+    position: fixed;
+    width: 100%;
+} */
+h1, h4{
+    color: yellow;
+    font-size: 3vw;
+    position: absolute;
+}
+h4{
+    padding-top: 3%;
+    font-size: 2.5vw;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    margin-right: auto;
+} 
+
+.parent{
+    position: relative;
+    text-align: center;
+    /* top: 30%; */
+    left: 33%;
+    margin-top:10%;
+}
+#logo{
+    border: solid 4px pink;
+    border-radius: 50%;
+}
+.imgcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 9%;
+}
+button{
+   width: 150px;
+   height: 35px;
+   padding-bottom: 8px;
+   background-color:yellow;
+   color: blue;
+   display: block;
+   margin: 35px auto 0 auto;
+   text-align: center;
+   border: solid 3px white;
+   border-radius: 15px;
+   font-weight: 900;
+   scale: 0.7;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Media Breakpoints */
+/* See this URL: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_mq_breakpoints */
+
+/* Will apply rule if screen smaller than 480px.*/
+@media screen and (max-width:767px){
+.imgcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}  
+    
+}
+#baby{
+    width: 22%;
+    margin-top: -1%;
+}
+
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+

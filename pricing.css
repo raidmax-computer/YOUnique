@@ -1,0 +1,76 @@
+/* Pricing styling */
+
+.bg-image{
+   background-image: url('https://cdn.pixabay.com/photo/2018/08/17/14/26/piggy-3612927_1280.jpg');
+   width: 100%;
+   height: auto;
+   background-repeat: no-repeat;
+   background-size: 120%;
+   position: center center;
+   z-index: 100;
+}
+body{
+    background-color: black;
+}
+.nav-link{
+    margin-top: 30px;
+    padding-left: 60%;
+    font-size: 1.2rem;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+.navbar-brand{
+    margin-left: -9px;
+}
+#footer{
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+#logo{
+    border: solid 4px pink;
+    border-radius: 50%;
+}
+h1{
+    color:rgb(20, 97, 185);
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+   }
+p{
+    color: rgb(16, 16, 150);
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+  }
+.parent{
+    width: 70%;
+    height: 20%;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+    margin-top: 20%;
+    border: solid 3px black;
+    border-radius: 15px;
+    z-index: -1;
+}
+.mod{
+    font-weight: bolder;
+}
+
+
+
+/* Media Breakpoints */
+/* See this URL: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_mq_breakpoints */
+
+/* Will apply rule if screen smaller than 767px.*/
+@media screen and (max-width:767px){
+
+}
+
+
